@@ -120,7 +120,7 @@ const educationInfo = {
       desc: "Focused on Deep Learning, NLP, Vision, and Embedded Machine Learning",
       descBullets: [
         "GPA: 4.0/4.0 (Awarded suma-cum-laude)",
-        "Submitted a co-authored research paper on zero-shot multimodal RAG-based image labeling to ASME IDETC-CIE 2025",
+        "Submitted a first-authored research paper on zero-shot multimodal RAG-based image labeling to ASME IDETC-CIE 2025",
         "Worked as a Graduate Research Assistant on vision-language models and knowledge-driven pipelines"
       ]
     },
@@ -132,6 +132,7 @@ const educationInfo = {
       desc: "Foundational engineering education with emphasis on control systems, sensors, and signal processing.",
       descBullets: [
         "Published a paper on 'Wireless Automation of Multi-process using LabVIEW",
+        "First Student Chapter of ISOI and Served as Secretary for for the first batch",
         "Graduated in the top 10 of the department"
       ]
     }
@@ -267,9 +268,14 @@ const achievementSection = {
       footerLink: [
         {
           name: "Credential",
-          url: "https://www.credential.net/12fb5a49-9a11-4550-bf4c-16ca093547f8"
+          url: "https://www.credential.net/f4363c5a-e415-47d0-b19f-00ef627f826a#acc.PeN3DKWO"
+        },
+        {
+          name: "Find me in TensorFlow Directory",
+          url: "https://developers.google.com/certification/directory"
         }
-      ]
+      ],
+      note: "Click the 'TensorFlow Directory' link and search for 'Rahul Pushparajan'."
     }
   ],
   display: true // Set false to hide this section, defaults to true

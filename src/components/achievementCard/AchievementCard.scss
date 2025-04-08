@@ -75,3 +75,16 @@
 span.certificate-tag:hover {
   background: $buttonHover;
 }
+.certificate-note-div {
+  margin-top: 1rem;
+  text-align: center;
+}
+.certificate-note {
+  font-size: 0.9rem;
+  color: $cardSubtitle; // You already use this for subtitles
+  line-height: 1.5;
+  padding: 0 1rem;
+}
+.dark-mode .certificate-note {
+  color: $cardSubtitle;
+}

@@ -29,7 +29,7 @@ export default function AchievementCard({cardInfo, isDark}) {
         </p>
       </div>
       <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
+        {cardInfo.footerLink?.map((v, i) => {
           return (
             <span
               key={i}
@@ -43,6 +43,14 @@ export default function AchievementCard({cardInfo, isDark}) {
           );
         })}
       </div>
+      {/* 👇 ADD THIS BLOCK */}
+      {cardInfo.note && (
+        <div className="certificate-note-div">
+          <p className={isDark ? "dark-mode certificate-note" : "certificate-note"}>
+            {cardInfo.note}
+          </p>
+        </div>
+      )}
     </div>
   );
 }

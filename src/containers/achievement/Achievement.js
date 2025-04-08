@@ -39,13 +39,7 @@ export default function Achievement() {
                 <AchievementCard
                   key={i}
                   isDark={isDark}
-                  cardInfo={{
-                    title: card.title,
-                    description: card.subtitle,
-                    image: card.image,
-                    imageAlt: card.imageAlt,
-                    footer: card.footerLink
-                  }}
+                  cardInfo={card}
                 />
               );
             })}
