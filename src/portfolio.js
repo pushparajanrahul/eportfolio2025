@@ -26,7 +26,7 @@ const greeting = {
     "Machine Learning Researcher + MLOps Engineer • Cloud Enthusiast • Bridging innovative models with production-ready systems"
   ),
   resumeLink:
-    "https://drive.usercontent.google.com/download?id=18xWwynPsU6BKSP1EEqT-N1ZuhvxSqf4y&export=download&authuser=2&confirm=t&uuid=d3987c6d-f553-418a-8aaf-b51aaf3b64d5&at=AENtkXZvSABhovuOl3z0ok9Kn4rZ:1731743087768", // Set to empty to hide the button
+    "https://drive.google.com/file/d/171epsXwDgnhS-wMTTP-Xzfx1AxmSFoTf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/pushparajanrahul/",
   gmail: "pushparajan.rahul@gmail.com",
   gitlab: "",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "",
   medium: "https://medium.com/@rahulpushparajan",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -207,25 +207,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/06KNPClogo.png"),
+      projectName: "KNPC",
+      projectDesc: "Architecting predective maintence through a comprehensive utility called Maintence Response Center ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://knpc.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/07Roquettelogo.png"),
+      projectName: "Roquette RIdhi Siddhi",
+      projectDesc: "Automating ETL processes to streamline data flow and enhance operational efficiency at the Roquette Ridhi Sidhi plant",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.roquette.com/"
         }
       ]
     }
@@ -310,32 +310,47 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Not Yet !!!🙂 Coming soon 🔜"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("My Podcast 🎙️"),
+  subtitle: "Not Yet !!!🙂 Coming soon 🔜",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
+
+// Youtube Section
+
+const youtubeSection = {
+  title: emoji("My YouTube 🎥"),
+  subtitle: "I LOVE TO TALK ABOUT BRINGING TECH TO YOUR SPACE",
+
+  // Example YouTube links (can be video or embedded playlist)
+  videos: [
+    "https://www.youtube.com/embed/fv-Nd6y3xO0", // Playlist
+    "https://www.youtube.com/embed/JXOaTNDyGNg" // Individual video
+  ],
+  display: true
+};
+
 
 // Resume Section
 const resumeSection = {
@@ -378,6 +393,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
+  youtubeSection,
   contactInfo,
   twitterDetails,
   isHireable,

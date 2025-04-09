@@ -11,6 +11,7 @@ import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
+import YouTubeSection from "./youtube/YouTubeSection";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
@@ -61,8 +62,8 @@ const Main = () => {
             <Achievement />
             <Blogs />
             <Talks />
-            <Twitter />
             <Podcast />
+            <YouTubeSection />
             <Profile />
             <Footer />
             <ScrollToTopButton />
