@@ -59,51 +59,107 @@ const skillsSection = {
     emoji("🛠️ Data engineering with Kafka, Spark, SQL, and real-time ETL pipelines")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Save the icons and make Sure to include correct icons logopath to view your icon
+https://icon-sets.iconify.design/?query= */
 
-  softwareSkills: [
-    { 
-      skillName: "PyTorch",
-      fontAwesomeClassname: "fas fa-brain" 
-    },
-    { 
-      skillName: "TensorFlow",
-      fontAwesomeClassname: "fas fa-cubes" 
-    },
-    { 
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker" 
-    },
-    { 
-      skillName: "Kubernetes",
-      fontAwesomeClassname: "fas fa-server" 
-    },
-    { 
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws" 
-    },
-    { 
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python" 
-    },
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    }
-  ],
+softwareSkills: [
+  {
+    skillName: "PyTorch",
+    logoPath: "A01pytorch.svg",
+  },
+  {
+    skillName: "TensorFlow",
+    logoPath: "A02tensorflow.svg",
+  },
+  {
+    skillName: "Hugging Face",
+    logoPath: "A03hugging-face.svg",
+  },
+  {
+    skillName: "scikit-learn",
+    logoPath: "A04scikitlearn.svg",
+  },
+  {
+    skillName: "Python",
+    logoPath: "B01python.svg",
+  },
+  {
+    skillName: "C++",
+    logoPath: "B02cpp3.svg",
+  },
+  {
+    skillName: "Bash",
+    logoPath: "B03plain-bash.svg",
+  },
+  {
+    skillName: "Apache Kafka ",
+    logoPath: "C01apachekafka.svg",
+  },
+  {
+    skillName: "Apache Spark",
+    logoPath: "C02apachespark.svg",
+  },
+  {
+    skillName: "MLFlow",
+    logoPath: "C03mlflow.svg",
+  },
+  {
+    skillName: "Pandas",
+    logoPath: "C04pandas.svg",
+  },
+  {
+    skillName: "Numpy",
+    logoPath: "C05numpy.svg",
+  },
+  {
+    skillName: "AWS- IAM",
+    logoPath: "D01aws-logo.svg",
+  },
+  {
+    skillName: "AWS EC2",
+    logoPath: "D02aws-ec2.svg",
+  },
+  {
+    skillName: "AWS S3",
+    logoPath: "D03aws-s3.svg",
+  },
+  {
+    skillName: "AWS SageMaker",
+    logoPath: "D04aws-SageMaker.svg",
+  },
+  {
+    skillName: "Docker",
+    logoPath: "D05docker.svg",
+  },
+  {
+    skillName: "Git",
+    logoPath: "D06git.svg",
+  },
+  {
+    skillName: "FastAPI",
+    logoPath: "D07fastapi.svg",
+  },
+  {
+    skillName: "PostgreSQL",
+    logoPath: "E01postgresql.svg",
+  },
+  {
+    skillName: "Snowflake",
+    logoPath: "E02snowflake.svg",
+  },
+  {
+    skillName: "Neo4j",
+    logoPath: "E03neo4j.svg",
+  },
+  {
+    skillName: "Meta AI",
+    logoPath: "F01metaai.svg",
+  },
+  {
+    skillName: "OpenAI",
+    logoPath: "F02openai.svg",
+  }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -120,7 +176,7 @@ const educationInfo = {
       desc: "Focused on Deep Learning, NLP, Vision, and Embedded Machine Learning",
       descBullets: [
         "GPA: 4.0/4.0 (Awarded suma-cum-laude)",
-        "Submitted a first-authored research paper on zero-shot multimodal RAG-based image labeling to ASME IDETC-CIE 2025",
+        "Submitted a first-authored research paper on Zero-shot RAG-based Image Labeling to ASME IDETC-CIE 2025",
         "Worked as a Graduate Research Assistant on vision-language models and knowledge-driven pipelines"
       ]
     },
@@ -132,7 +188,7 @@ const educationInfo = {
       desc: "Foundational engineering education with emphasis on control systems, sensors, and signal processing.",
       descBullets: [
         "Published a paper on 'Wireless Automation of Multi-process using LabVIEW",
-        "First Student Chapter of ISOI and Served as Secretary for for the first batch",
+        "Formed the first Student Chapter of ISOI and Served as Secretary during 2011-2013 ",
         "Graduated in the top 10 of the department"
       ]
     }

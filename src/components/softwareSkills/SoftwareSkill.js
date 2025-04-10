@@ -9,12 +9,12 @@ export default function SoftwareSkill() {
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
-              <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}
-              >
-                <i className={skills.fontAwesomeClassname}></i>
+              <li key={i} className="software-skill-inline" name={skills.skillName}>
+                <img
+                  src={require(`../../assets/skills/${skills.logoPath}`)}
+                  alt={skills.skillName}
+                  className="skill-logo"
+                />
                 <p>{skills.skillName}</p>
               </li>
             );
