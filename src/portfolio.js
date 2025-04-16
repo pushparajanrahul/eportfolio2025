@@ -120,12 +120,12 @@ softwareSkills: [
     logoPath: "D02aws-ec2.svg",
   },
   {
-    skillName: "AWS S3",
-    logoPath: "D03aws-s3.svg",
-  },
-  {
     skillName: "AWS SageMaker",
     logoPath: "D04aws-SageMaker.svg",
+  },
+  {
+    skillName: "AWS S3",
+    logoPath: "D03aws-s3.svg",
   },
   {
     skillName: "Docker",
